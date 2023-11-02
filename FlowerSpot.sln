@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerSpot.Service", "FlowerSpot.Service\FlowerSpot.Service.csproj", "{BA951324-317D-4243-93DB-076306B371AB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerSpot.Domain", "FlowerSpot.Domain\FlowerSpot.Domain.csproj", "{48DAD1BF-4321-42C0-B1A8-EC09F6F30812}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerSpot.Data", "FlowerSpot.Data\FlowerSpot.Data.csproj", "{0F2E8497-91BC-4014-97BF-0AF25EE23CEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3CB46A93-B519-46F4-916F-559D21AFF706}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlowerSpot.Api", "FlowerSpot.Api\FlowerSpot.Api.csproj", "{975662F7-2C3D-4F78-9948-196F4F86C88C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlowerSpot.Service.Tests", "FlowerSpot.Service.Tests\FlowerSpot.Service.Tests.csproj", "{4B500BEA-2DC1-403E-8C60-FECFA78B21B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA951324-317D-4243-93DB-076306B371AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA951324-317D-4243-93DB-076306B371AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA951324-317D-4243-93DB-076306B371AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA951324-317D-4243-93DB-076306B371AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48DAD1BF-4321-42C0-B1A8-EC09F6F30812}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48DAD1BF-4321-42C0-B1A8-EC09F6F30812}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48DAD1BF-4321-42C0-B1A8-EC09F6F30812}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48DAD1BF-4321-42C0-B1A8-EC09F6F30812}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2E8497-91BC-4014-97BF-0AF25EE23CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2E8497-91BC-4014-97BF-0AF25EE23CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2E8497-91BC-4014-97BF-0AF25EE23CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2E8497-91BC-4014-97BF-0AF25EE23CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975662F7-2C3D-4F78-9948-196F4F86C88C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975662F7-2C3D-4F78-9948-196F4F86C88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975662F7-2C3D-4F78-9948-196F4F86C88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975662F7-2C3D-4F78-9948-196F4F86C88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B500BEA-2DC1-403E-8C60-FECFA78B21B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B500BEA-2DC1-403E-8C60-FECFA78B21B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B500BEA-2DC1-403E-8C60-FECFA78B21B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B500BEA-2DC1-403E-8C60-FECFA78B21B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4B500BEA-2DC1-403E-8C60-FECFA78B21B2} = {3CB46A93-B519-46F4-916F-559D21AFF706}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1351975B-682D-4243-AEB4-62F7777CF19F}
+	EndGlobalSection
+EndGlobal
